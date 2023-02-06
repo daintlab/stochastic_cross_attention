@@ -4,6 +4,7 @@
 - Download dataset and run ```preprocess.py``` (modify dataset and data_dir line)
 - Official test/train split will be copied to ```test/```, ```train_all/``` under ```data_dir```
 - Official train split will be separated into ```train/``` and ```val/``` with ratio of 9 : 1
+- Processed datasets are in ```/data/transfer_benchmarks``` for F,G,I Server
 
 ## Usage
 - Train without validation set
