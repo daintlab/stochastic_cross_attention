@@ -7,7 +7,7 @@
 - Processed datasets are in ```/data/transfer_benchmarks``` for F,G,I Server
 
 ## Usage
-- Train without validation set
+- Train for validation & hyperparameter selection
 ```
 CUDA_VISIBLE_DEVICES=0 python train.py --method <algorithm> --use_val \
 --data_dir <path to data dir> --dataset <dataset> --work_dir <path to result dir>
