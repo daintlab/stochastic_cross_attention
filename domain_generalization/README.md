@@ -5,7 +5,7 @@
 
 ## Usage
 ```
-CUDA_VISIBLE_DEVICES=0 python -m scripts.train --data_dir <path to data dir> --steps 5001 --dataset <dataset> \
+CUDA_VISIBLE_DEVICES=0 python -m domainbed.scripts.train --data_dir <path to data dir> --steps 5001 --dataset <dataset> \
 --test_env <target domain> --algorithm StochCA --output_dir <path to output dir> \
 --hparams '{"lr": 1e-5, "lr_classifier": 1e-5, "ca_prob": 0.1, "weight_decay": 1e-2, "resnet_dropout": 0}' --seed <seed> --checkpoint_freq 200
 ```
