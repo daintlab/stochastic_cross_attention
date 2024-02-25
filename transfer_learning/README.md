@@ -25,5 +25,5 @@ CUDA_VISIBLE_DEVICES=0 python train.py --method <algorithm> --ratio 0.5 \
   - ```StochCA``` : stochastic cross attention
   - ```CoTuning_StochCA``` : CoTuning + StochCA
   - ```BSS_StochCA``` : BSS + StochCA
-  - 
+  
 - train log and config file will be saved in ```./log/<dataset>/<algorithm>/<work_dir> ```
