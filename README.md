@@ -14,14 +14,10 @@ StochCA (Stochastic Cross-Attention) introduces a fine-tuning method for Transfo
 - Log files will be saved as follows :
 ```
 |---- domain_generalization
-|     |---- results/
-|           |---- final/
-|                 |---- <work_dir>/
-|                       |---- PACS/
-|                             |---- seed0/
-|                                   |---- err.txt
-|                                   |---- out.txt
-|                                   |---- results.json
+|     |---- <output_dir>
+|           |---- err.txt
+|           |---- out.txt
+|           |---- results.json
 ...
 |---- transfer_learning
 |     |---- logs/
